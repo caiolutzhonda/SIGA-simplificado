@@ -36,12 +36,16 @@ p {
     font-family: Arial, Helvetica, sans-serif; 
 }
 
-#instagram {
-    margin-top: 20px;
+.centralizacao-imagem{
+    margin-top: 40px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
 
+a#instagram{
+    height: 100px;
+    width: 100px;
 }
 
 #imagem-instagram{
@@ -49,10 +53,10 @@ p {
     height: 100px;
 }
 
-#imagem-instagram:hover{
-    transition-duration: 0.2s;
-    width: 120px;
-    height: 120px;
-    
+.centralizacao-botao
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
 }
-
