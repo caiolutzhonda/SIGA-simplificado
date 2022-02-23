@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-secreto {
+    font-size: 3px;
+}
+
+#imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#texto {
+    width: 500px;
+}
+
+
+.titulos {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#instagram {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#imagem-instagram{
+    width: 100px;
+    height: 100px;
+}
+
+#imagem-instagram:hover{
+    transition-duration: 0.2s;
+    width: 120px;
+    height: 120px;
+    
+}
+
