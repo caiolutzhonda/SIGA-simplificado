@@ -92,11 +92,8 @@ display:flex;
 align-items:center;
 }
 
-.logo ul {
-display:block;
-}
-
 .logo ul li {
+display:block;
 padding-left:10px;
 font-family:"Open sans",sans-serif;
 color:#ffff;
