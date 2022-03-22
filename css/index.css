@@ -8,7 +8,20 @@
 
 #top-bar {
     width: 100%;
-    height: 20px;
-    background-color: black;
-
+    height: 40px;
+    background-color: #f1f1f1;
 } 
+
+.bandeira-brasil{
+    height: 40px;
+    width: 200px;
+}
+
+
+.bandeira-brasil ul li {
+    display: inline-block;
+}
+
+[alt="bandeira-brasil"] {
+    width: 43px;
+}
