@@ -3,25 +3,95 @@
 *{
     margin: 0;
     padding: 0;
+}
 
+ul li{
+  display: inline-block;
+  color: #606060;
 }
 
 #top-bar {
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color: #f1f1f1;
-} 
+    font-family: "Open sans", sans-serif;
+}
 
-.bandeira-brasil{
-    height: 40px;
-    width: 200px;
+/* bandeira da top-bar */
+.container-bandeira-brasil
+{
+  height: auto;
+  width: auto;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.bandeira-brasil {
+  height: 40px;
+
+}
+
+#lista-bandeira-brasil
+{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-right: 3px solid #dfdfdf;
+
+
+}
+
+[alt="bandeira-brasil"]{
+  width: 40px;
+}
+
+.bandeira-brasil ul li{
+  padding: 0px 5px 0px 5px;
 }
 
 
-.bandeira-brasil ul li {
-    display: inline-block;
+/* bandeira da top-bar - fim*/
+
+
+/* itens do top bar lateral direito  */
+.container-menu {
+  height: auto;
+  width: auto;
+  float: right;
 }
 
-[alt="bandeira-brasil"] {
-    width: 43px;
+.menu {
+    height: 50px;
+
 }
+
+#coronavirus
+{
+  color: red;
+  border-left: 3px solid #dfdfdf;
+
+}
+
+.menu ul {
+  display: flex;
+  height: 100%;
+}
+.menu ul li{
+  height: 100%;
+  font-weight: bold;
+  border-right: 3px solid #dfdfdf;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  align-items:  center;
+
+}
+
+[alt="Libras"] {
+  width: 40px;
+}
+
+
+
+
+/* itens do top bar lateral direito  */
