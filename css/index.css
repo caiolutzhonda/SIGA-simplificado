@@ -6,7 +6,7 @@
 }
 
 ul li {
-  display:inline-block;
+  display: inline-block;
   color:#606060;
 }
 
@@ -81,3 +81,47 @@ ul li {
 }
 
 /* itens do top bar lateral direito  */
+
+/*Logo principal do site*/
+.logo {
+  width: 100%;
+  height: 146px;
+  background-image: radial-gradient(ellipse at center,#19882C 1%,#025310 100%);
+  display: flex;
+  align-items: center;
+}
+
+.logo ul {
+  display: block;
+}
+
+.logo ul li{
+  padding-left: 10px;
+  font-family:"Open sans",sans-serif;
+  color: #ffff;
+}
+
+#header-logo {
+  font-size: 40px;
+  font-weight: 800;
+}
+/*Logo principal do site*/
+
+/*Selecionador do curso*/
+#selecionador-matrícula{
+  background-color: #00420c;
+}
+
+.opcoes-selecionador
+{
+  color:#606060;
+  font-family:"Open sans",sans-serif;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+#form-selecionado-matricula
+{
+  padding: 5px 10px;
+}
+/*Selecionador do curso*/
