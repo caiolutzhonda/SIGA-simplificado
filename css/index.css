@@ -5,10 +5,6 @@ margin:0;
 padding:0;
 }
 
-ul li {
-display:inline-block;
-color:#606060;
-}
 
 #top-bar {
 width:100%;
@@ -21,30 +17,27 @@ justify-content: space-between;
 }
 /*justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;*/
 /* bandeira da top-bar */
-.container-bandeira-brasil {
-height:auto;
+
+.bandeira-lista-brasil {
+height: 50px;
 width:auto;
+display: flex;
+justify-content: center;
+align-items: baseline;
 border-right:3px solid #dfdfdf;
-}
-
-.bandeira-brasil {
-height:40px;
-}
-
-#lista-bandeira-brasil {
-height:50px;
-display:flex;
-align-items:center;
 
 }
+
+.imagem-lista-brasil{
+    height: 100%;
+}
+
 
 [alt="bandeira-brasil"] {
 width:40px;
+padding:5px;
 }
 
-.bandeira-brasil ul li {
-padding:0 5px;
-}
 
 /* bandeira da top-bar - fim*/
 
@@ -52,11 +45,14 @@ padding:0 5px;
 .container-menu {
 height:auto;
 width:auto;
-float:right;
+display: flex;
+justify-content: flex-end;
+
 }
 
 .menu {
 height:50px;
+
 }
 
 #coronavirus {
