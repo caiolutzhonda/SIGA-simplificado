@@ -15,27 +15,27 @@ display: flex;
 justify-content: space-between;
 
 }
-/*justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;*/
 /* bandeira da top-bar */
 
 .bandeira-lista-brasil {
 height: 50px;
-width:auto;
+width: auto;
+border-right: 3px solid #dfdfdf;
 display: flex;
-justify-content: center;
-align-items: baseline;
-border-right:3px solid #dfdfdf;
+align-items: center;
 
 }
 
-.imagem-lista-brasil{
-    height: 100%;
+#lista-bandeira-brasil
+{
+	list-style: none;
+	font-weight: bold;
+	color: #606060;
 }
 
-
-[alt="bandeira-brasil"] {
-width:40px;
-padding:5px;
+#bandeira-brasil{
+	padding: 5;
+	width: 40px;
 }
 
 
