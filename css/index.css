@@ -5,59 +5,48 @@ margin:0;
 padding:0;
 }
 
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+/*top-bar - começo*/
+.desativador-estilo-link{
+	text-decoration: none;
+	color: #606060;
+}
+
 
 #top-bar {
 width:100%;
 height:50px;
 background-color:#f1f1f1;
 font-family:"Open sans",sans-serif;
-display: flex;
-justify-content: space-between;
-
+display:flex;
+justify-content:space-between;
 }
-/* bandeira da top-bar */
 
+/*Bandeira brasil - começo*/
 .bandeira-lista-brasil {
-height: 50px;
-width: auto;
-border-right: 3px solid #dfdfdf;
-display: flex;
-align-items: center;
-
-}
-
-#lista-bandeira-brasil
-{
-	list-style: none;
-	font-weight: bold;
-	color: #606060;
-}
-
-#bandeira-brasil{
-	padding: 5;
-	width: 40px;
-}
-
-
-/* bandeira da top-bar - fim*/
-
-/* itens do top bar lateral direito  */
-.container-menu {
-height:auto;
+height:50px;
 width:auto;
-display: flex;
-justify-content: flex-end;
-
+border-right:3px solid #dfdfdf;
+display:flex;
+align-items:center;
 }
 
+.images-top-bar {
+width:40px;
+padding:5px 10px;
+}
+
+.lista-bandeira-brasil {
+text-decoration: none;
+list-style:none;
+font-weight:700;
+padding-right:10px;
+}
+
+/*Bandeira brasil - fim*/
+/*Texto lateral da bandeira - começo*/
 .menu {
 height:50px;
-
-}
-
-#coronavirus {
-color:red;
-border-left:3px solid #dfdfdf;
 }
 
 .menu ul {
@@ -66,20 +55,20 @@ height:100%;
 }
 
 .menu ul li {
-height:100%;
 font-weight:700;
+color:#606060;
 border-right:3px solid #dfdfdf;
 padding:0 10px;
 display:flex;
 align-items:center;
 }
 
-[alt="Libras"] {
-width:40px;
+#coronavirus {
+border-left:3px solid #dfdfdf;
 }
 
-/* itens do top bar lateral direito  */
-
+/*Texto lateral da bandeira - fim*/
+/*top-bar - fim*/
 /*Logo principal do site*/
 .logo {
 width:100%;
@@ -90,8 +79,8 @@ align-items:center;
 }
 
 .logo ul li {
-display:block;
-padding-left:10px;
+list-style:none;
+margin-left:22px;
 font-family:"Open sans",sans-serif;
 color:#ffff;
 }
@@ -102,7 +91,6 @@ font-weight:800;
 }
 
 /*Logo principal do site*/
-
 /*Selecionador do curso*/
 #selecionador-matrícula {
 background-color:#00420c;
@@ -110,7 +98,10 @@ background-color:#00420c;
 
 .opcoes-selecionador {
 color:#606060;
+padding:2px;
 font-family:"Open sans",sans-serif;
+border:0;
+background-color:#ffff;
 font-weight:700;
 border-radius:3px;
 }
@@ -119,7 +110,61 @@ border-radius:3px;
 padding:5px 10px;
 }
 /*Selecionador do curso*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+/*principal inicio*/
+/*Menu lateral - inicio*/
+.container-main {
+display:flex;
+justify-content:flex-start;
+}
+
+.lateral-esquerda {
+width:16%;
+margin-top:20px;
+margin-left:10px;
+}
+
+#link_site_ifms {
+border-top:1px solid #e1e1e1;
+border-bottom:1px solid #e1e1e1;
+margin-bottom:32px;
+}
+
+.menu-arte {
+background-color:#edeff1;
+border-top:4px solid #00510f;
+padding:8px 8px 24px 10px;
+color:#035312;
+font-family:"Open sans",sans-serif;
+font-weight:700;
+font-size:.8em;
+}
+
+#lista-menu {
+list-style:none;
+}
+
+.item-lista-menu {
+/*Apenas para padronizar o estilo*/
+text-decoration:none;
+font-family:"Open sans",sans-serif;
+color:#000;
+padding-left:10px;
+}
+
+.item-lista-menu:hover {
+text-decoration:underline;
+}
+
+#lista-menu li {
+border-bottom:1px solid #dfdfdf;
+padding:4px;
+}
+/*Menu lateral - fim*/
+
+/*principal fim*/
 
 
+/*footer inicio*/
 
-
+/*footer fim*/
