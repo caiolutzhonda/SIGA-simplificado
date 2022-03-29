@@ -166,5 +166,23 @@ padding:4px;
 
 
 /*footer inicio*/
+.barra-footer
+{
+	margin-top: 30px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #00420c;
+	height: 50px;
+}
+
+
+
+
+
+
+
 
 /*footer fim*/
+
+
