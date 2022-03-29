@@ -116,6 +116,7 @@ padding:5px 10px;
 .container-main {
 display:flex;
 justify-content:flex-start;
+flex-wrap: wrap;
 }
 
 .lateral-esquerda {
@@ -136,7 +137,6 @@ border-top:4px solid #00510f;
 padding:8px 8px 24px 10px;
 color:#035312;
 font-family:"Open sans",sans-serif;
-font-weight:700;
 font-size:.8em;
 }
 
@@ -166,22 +166,13 @@ padding:4px;
 
 
 /*footer inicio*/
-.barra-footer
+.wrapper-meio 
 {
-	margin-top: 30px;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	background-color: #00420c;
-	height: 50px;
+	width: 42%;
+	height: 400px;
+	margin: 15px 30px;
+	background-color: black;
 }
-
-
-
-
-
-
-
 
 /*footer fim*/
 
