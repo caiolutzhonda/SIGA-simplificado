@@ -112,13 +112,14 @@ padding:5px 10px;
 /*Selecionador do curso*/
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 /*principal inicio*/
-/*Menu lateral - inicio*/
+/*inicio - container geral*/
 .container-main {
 display:flex;
 justify-content:flex-start;
-flex-wrap: wrap;
 }
+/*fim - container geral*/
 
+/*Menu lateral - inicio*/
 .lateral-esquerda {
 width:16%;
 margin-top:20px;
@@ -137,7 +138,7 @@ border-top:4px solid #00510f;
 padding:8px 8px 24px 10px;
 color:#035312;
 font-family:"Open sans",sans-serif;
-font-size:.8em;
+font-size: 16px;
 }
 
 #lista-menu {
@@ -163,17 +164,33 @@ padding:4px;
 /*Menu lateral - fim*/
 
 /*principal fim*/
-
-
-/*footer inicio*/
 .wrapper-meio 
 {
 	width: 42%;
-	height: 400px;
-	margin: 15px 30px;
-	background-color: black;
+	height: auto;
+	margin: 15px 0px 0px 30px;
+}
+.conteudo-meio
+{
+	margin-top: 10px;
+	line-height: 1.42857143;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
-/*footer fim*/
+.conteudo-meio p 
+{
+	margin: 0 0 1em 0;
+}
+
+.link-paragrafo
+{
+	color: #3f81bb;
+	text-decoration: none;
+}
+.link-paragrafo:hover
+{
+	text-decoration: underline;
+}
+
 
 
