@@ -103,6 +103,10 @@ border-radius:3px;
 padding:5px 10px;
 }
 
+main {
+	min-height: calc(100vh - 228px - 50px);
+}
+
 .container-main {
 display:flex;
 justify-content:flex-start;
@@ -176,12 +180,8 @@ text-decoration:underline;
 }
 
 .wrapper-barra-rodape {
-position:fixed;
-z-index:100;
-bottom:0;
-left:0;
 width:100%;
-height:50px;
-background-color:#000;
+height:73px;
+background-color: #00420c;
 }
 
