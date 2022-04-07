@@ -2,70 +2,132 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Notas - Sistema Acadêmico</title>
+        <title>Sistema Acadêmico IFMS</title>
         <meta name="Author" content="Caio Lutz Honda">
-        <link href="../images/iconIF.svg" type="image/x-icon" rel="icon">
+        <meta name="keywords" content="Academico ifms, ifms academico, SIGA ifms, siga">
+        <link href="images/iconIF.svg" type="image/x-icon" rel="icon">
+        <link rel="stylesheet" href="../css/index.css">
     </head>
     <body>
+        <!-- Incio do header -->
         <header>
-            <h1>Sistema Acadêmico - Notas</h1>
-        </header>
-        <hr>
-        <nav>
-            <ul>
-                <li><a href="hobbies.html">Hobbies</a></li>
-                <li><a href="disciplinas.html">Disciplinas</a></li>
-                <li><a href="notas.html">Notas</a></li>
-                <li><a href="biblioteca.html">Biblioteca</a></li>
-                <li><a href="boletim.html">Boletim</a></li>
-            </ul>
-        </nav>
-        <hr>
-        <main>
-            <table>
-                <tr>
-                    <td>Nome: CAMILA YUMI KOIKE</td>
-                    <td>CPF: XXX.XXX.XXX.XX</td>
-                </tr>
-                <tr>
-                    <td>Matrícula: XXXXXXXXXXXXX-X (Em curso)</td>
-                    <td>Curso: Técnico em Informática - Integrado</td>
-                </tr>
-                <tr>
-                    <td>Turno: Matutino</td>
-                    <td>Data de ingresso: xx/xx/xxxx</td>
-                </tr>
-            </table>
-            <hr>
-            <h2>notas</h2>
-            <hr>
-
-            <div class="2021-2">
-                <h2>2021-2</h2>
-                <a href="#">Linguagem de programação 1</a>
-                <br>
-                <a href="#">Matemática</a>
-                <br>
-                <a href="#">Português</a>
-                <br>
-                <a href="#">Ciências</a>
-
+            <!-- Inicio da barra superior -->
+            <div id="top-bar">
+                <!--bandeira e texto da bandeira-->
+                <div class="bandeira-lista-brasil">
+                        <img src="../images/1200px-Flag_of_Brazil.svg.png" class="images-top-bar" alt="bandeira-brasil">
+                        <ul class="lista-bandeira-brasil">
+                            <li><a class="desativador-estilo-link" href="https://gov.br/" target="_blank">BRASIL</a></li>
+                        </ul>
+                </div>
+                <!--Fim da bandeira e do texto da bandeira -->
+                    
+                <!--Inicio das opções do menu da top bar-->
+                <div class="menu">
+                    <ul>
+                        <li id="coronavirus"><a style="color: red;" class="desativador-estilo-link" href="http://www.saude.gov.br/coronavirus" target="_blank">CORONAVÍRUS (COVID-19)</a></li>
+                        <li><a href="http://www.simplifique.gov.br/" class="desativador-estilo-link" target="_blank">Simplifique!</a></li>
+                        <li><a href="https://www.gov.br/pt-br/participacao-social/" class="desativador-estilo-link" target="_blank">Participe</a></li>
+                        <li><a href="http://www.acessoainformacao.gov.br/" class="desativador-estilo-link" target="_blank">Acesso à informação</a></li>
+                        <li><a href="http://www.planalto.gov.br/legislacao" class="desativador-estilo-link" target="_blank">Legislação</a></li>
+                        <li><a href="https://gov.br/pt-br/canais-do-executivo-federal" class="desativador-estilo-link" target="_blank">Canais</a></li>
+                        <li><img src="images/simbolos_de_Acessibilidade_Libras.png" style="padding: 0;" class="images-top-bar" alt="Libras"></li>
+                    </ul>
+                </div>
             </div>
-            <div class="2022-1">
-                <h2>2022-1</h2>
-                <a href="#">Linguagem de Programação 2</a>
-                <br>
-                <a href="#">Programação Front-End</a>
-                <br>
-                <a href="#">Orientação a Objetos</a>
-                <br>
-                <a href="#">Banco de Dados</a>
+            <!--Fim das opções do menu e da top bar-->
+
+            <!--Inicio da logo do site-->
+            <div class="logo">
+                <ul>
+                    <li><sub>Instituto Federal de Mato Grosso do Sul</sub></li>
+                    <li><span id="header-logo">Sistema Acadêmico</span></li>
+
+                </ul>
+            </div>
+            <!--Fim da logo do site-->
+            <!--Inicio do nav do header-->
+            <div class="wrapper-nav-header">
+                <nav id="selecionador-matrícula">
+                    <form action="#" id="form-selecionado-matricula">
+                        <select class="opcoes-selecionador" name="opcaoDeMatricula" id="seletor-de-matricula">
+                            <option value="tecnico_integrado">Técnico em Informática - Integrado (Em curso)</option>
+                            <option value="selecione_uma_matricula">Selecione uma matrícula</option>
+                        </select>
+                    </form>
+                </nav>
+            </div>
+            <!--Fim do nav do header-->
+        </header>
+        <!-- Incio da main -->
+        <main>
+            <!--Inicio da barra lateral do site-->
+            <div class="container-main">
+                <div class="lateral-esquerda">
+                    <div class="site-ifms">
+                        <p id="link_site_ifms"><a class="item-lista-menu" href="http://www.ifms.edu.br/" target="_blank">Site do IFMS</a></p>
+                    </div>
+                    <div class="menu-arte">
+                        <p><strong><sup>MENU</sup></strong></p>
+                    </div>
+                    <div class="menu-lateral-esquerda">
+                        <ul id="lista-menu">
+                            <li><a class="item-lista-menu" href="html/boletim.html">Boletim</a></li>
+                            <li><a class="item-lista-menu" href="html/disciplinas.html">Disciplinas</a></li>
+                            <li><a class="item-lista-menu" href="html/hobbies.html">Hobbies</a></li>
+                            <li><a class="item-lista-menu" href="html/notas.html">Notas</a></li>
+                        </ul>
+                    </div>
+                </div> 
+                <!--Fim da barra lateral do site-->
+                <!-- Incio da main do site-->
+
+                <div class="wrapper-meio" style="margin-right: 15px; width: 100%;">
+                    <div class="meio">
+                        <div class="meio-header">
+                            <p class="menu-arte" style="border-top: 4px solid #017b16; color: #017b16;">Notas</p>                        
+                        </div>
+                        <div class="conteudo-meio">
+                            <p>Dados do estudante</p><hr>
+                            <table>
+                                <tr>
+                                    <td>Nome: CAMILA YUMI KOIKE</td>
+                                    <td>CPF: XXX.XXX.XXX.XX</td>
+                                </tr>
+                                <tr>
+                                    <td>Matrícula: XXXXXXXXXXXXX-X (Em curso)</td>
+                                    <td>Curso: Técnico em Informática - Integrado</td>
+                                </tr>
+                                <tr>
+                                    <td>Turno: Matutino</td>
+                                    <td>Data de ingresso: xx/xx/xxxx</td>
+                                </tr>
+                            </table>
+
+                        </div>
+                     </div>
+                </div>
+                <!-- Fim da main do site-->    
             </div>
         </main>
-        <hr>
+
+        <!-- Incio do footer -->
         <footer>
-            <button><a href="../index.html">Voltar</a></button>
-            <p>&copy;Todos os direitos reservados;</p>
+            <div class="texto-footer">
+                <p><sup>Caso ocorra alguma inconsistência favor procurar a Central de Relacionamento (CEREL) do seu campus.</sup></p>
+            </div>  
+            <div class="wrapper-barra-rodape">
+                <a id="link-bottom-bar" href="http://www.acessoainformacao.gov.br/" target="_blank">
+                    <div class="wrapper-acessibilidade-imagem">
+                        <img src="../images/info_ico.png" alt="simbolo de acesso a informação" id="acessoainformacao">
+                        <p id="texto-acessibilidade">Acesso à<br>informação</p>
+                    </div>
+                </a>
+                <a href="http://www.brasil.gov.br/" target="_blank">
+                    <div class="wrapper-patria-imagem">
+                    </div>
+                </a>
+            </div>
         </footer>
     </body>
 </html>
